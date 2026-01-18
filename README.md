@@ -28,7 +28,32 @@ This app displays multiple-choice questions (MCQs), calculates the final score, 
 - No backend
 - No external libraries
 
+
+## 📂 Project Structure
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+
 ---
+## 📊 Quiz Data Format
+
+```js
+const questions = [
+  {
+    question: "What does HTML stand for?",
+    options: [
+      "Hyper Tool Markup Language",
+      "Hyper Text Markup Language",
+      "High Text Markup Language",
+      "Hyperlinks Text Mark Language"
+    ],
+    correctAnswer: 1
+  }
+];
+
 ▶️ How to Run the Project
 1.Clone the repository
  git clone <your-repository-link>
@@ -68,30 +93,5 @@ Student | React Developer
 
 ⭐ If you like this project, give it a star on GitHub!
 
-
-## 📂 Project Structure
-src/
-├── App.jsx
-├── App.css
-├── main.jsx
-└── index.css
-
-
----
-## 📊 Quiz Data Format
-
-```js
-const questions = [
-  {
-    question: "What does HTML stand for?",
-    options: [
-      "Hyper Tool Markup Language",
-      "Hyper Text Markup Language",
-      "High Text Markup Language",
-      "Hyperlinks Text Mark Language"
-    ],
-    correctAnswer: 1
-  }
-];
 
 
