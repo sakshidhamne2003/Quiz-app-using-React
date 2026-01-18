@@ -3,7 +3,7 @@ import "./App.css";
 
 const questions = [
   {
-    question: "What does HTML stand for?",
+    question: "What does HTML stand for?", 
     options: [
       "Hyper Tool Markup Language",
       "Hyper Text Markup Language",
@@ -32,7 +32,9 @@ const questions = [
     options: ["useEffect", "useState", "useRef", "useContext"],
     correctAnswer: 1
   }
+   
 ];
+
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -88,7 +90,7 @@ function App() {
 
       {showResult ? (
         <div className="result">
-          <h2>Quiz Completed 🎉</h2>
+          <h2>Quiz Completed </h2>
           <p>
             Your Score: {score} / {questions.length}
           </p>
