@@ -1,16 +1,97 @@
-# React + Vite
+# 🧠 Quiz Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Quiz Application** built using **React (Functional Components)** and **Vite**.  
+This app displays multiple-choice questions (MCQs), calculates the final score, and allows users to restart the quiz.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Shows **one question at a time**
+- Multiple Choice Questions (MCQs)
+- User can select **only one option**
+- Options are **disabled after selection**
+- Shows **correct / incorrect feedback**
+- **Progress bar** to track quiz progress
+- **Final score display**
+- **Restart Quiz** button
+- Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components)
+- useState Hook
+- Vite
+- HTML, CSS, JavaScript
+- No backend
+- No external libraries
+
+---
+
+## 📂 Project Structure
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+
+---
+## 📊 Quiz Data Format
+
+```js
+const questions = [
+  {
+    question: "What does HTML stand for?",
+    options: [
+      "Hyper Tool Markup Language",
+      "Hyper Text Markup Language",
+      "High Text Markup Language",
+      "Hyperlinks Text Mark Language"
+    ],
+    correctAnswer: 1
+  }
+];
+
+▶️ How to Run the Project
+1.Clone the repository
+ git clone <your-repository-link>
+2. Go inside the project folder
+ cd quiz-app
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+5.Open browser and go to
+http://localhost:5173
+
+🔁 Restart Quiz Functionality
+The Restart Quiz button resets:
+Current question index
+Selected option
+Score
+Feedback state
+This is implemented using React useState.
+
+❌ Common Mistakes Avoided
+Mutating state directly
+Showing all questions at once
+Not resetting state on restart
+Using class components
+
+🎓 Learning Outcomes
+React functional components
+useState hook usage
+Conditional rendering
+Event handling
+Basic UI design with CSS
+
+🙌 Author
+Sakshi Dhamne
+Student | React Developer
+
+⭐ If you like this project, give it a star on GitHub!
+
+
