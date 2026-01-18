@@ -74,19 +74,6 @@ Score
 Feedback state
 This is implemented using React useState.
 
-❌ Common Mistakes Avoided
-Mutating state directly
-Showing all questions at once
-Not resetting state on restart
-Using class components
-
-🎓 Learning Outcomes
-React functional components
-useState hook usage
-Conditional rendering
-Event handling
-Basic UI design with CSS
-
 🙌 Author
 Sakshi Dhamne
 Student | React Developer
